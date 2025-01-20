@@ -22,5 +22,5 @@ The chosen filters allow data visualization by country, payment type, customer t
 
 Here's a preview of the dashboard. If you want to interact with it, remember you've access through the link at the top
 
-![Dashboard](/Captura_Dashboard.jpg)
+![Dashboard](Chargeback_Dashboard_with_LookerStudio/Captura_Dashboard.jpg)
 
