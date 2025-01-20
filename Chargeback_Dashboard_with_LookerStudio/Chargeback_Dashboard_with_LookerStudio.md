@@ -1,4 +1,4 @@
-📊Visualization Project: Dashboard Development📈
+Data Visualization project
 
 Google Looker Studio Dashboard: https://lookerstudio.google.com/s/ske7dRqPsI4
 
