@@ -64,19 +64,26 @@ Develop a **Looker Studio dashboard** for the chargeback team using the provided
 
 ### **Steps Taken to Build the Dashboard**  
 
-#### **1️⃣ Define 3 Key Performance Indicators (KPIs)**  
-To effectively monitor chargeback performance, we selected three key **KPIs**:  
+#### **1️⃣ Define Key Performance Indicators (KPIs)**  
+To effectively monitor chargeback performance, we selected the following **KPIs**:  
 - **Total Chargebacks** 📈 – Total number of chargebacks received, providing an overview of the situation.  
 - **% Approved Chargebacks** ✅ – Percentage of chargebacks that were successfully approved.  
+- **% Authenticated Transactions** 🔒 – Percentage of transactions that were authenticated out of the total.  
 - **Total Chargeback Amount (€)** 💰 – Total financial value of chargebacks.  
+- **Average Chargeback Amount (€)** 💳 – The average value of chargebacks for authenticated transactions.  
+- **% Chargebacks with Discounts** 🏷 – The percentage of total chargebacks that originated from discounted purchases.  
 
 Each KPI is displayed with total value visualizations in **Looker Studio**.  
 
 #### **2️⃣ Implement Segmentation (Filters)**  
-To allow users to **analyze chargeback data more effectively**, we added three key **filters**:  
+To allow users to **analyze chargeback data more effectively**, we added the following **filters**:  
+- **Chargeback Period** 📅 – To analyze trends over a selected time range.  
+- **Birth Range** 🏷 – To explore demographic trends based on customer age groups.  
+- **Client Type** 👤 – To distinguish chargebacks between different customer categories.  
 - **Country** 🌍 – To analyze chargeback distribution by region.  
 - **Payment Type** 💳 – To assess chargeback frequency across different payment methods.  
-- **Client Type** 👤 – To distinguish chargebacks between different customer categories.  
+
+These filters enable more precise and **interactive data exploration** within the dashboard.  
 
 #### **3️⃣ Create Data Visualizations**  
 To present the **KPIs effectively**, we selected various visualization types:  
@@ -108,6 +115,7 @@ This dashboard serves as a **valuable tool for Amazon’s chargeback team** to t
 - Improve strategies to **reduce authenticated chargebacks by 5%**.  
 
 This structured approach **enhances chargeback management** and supports data-driven decision-making. 🚀  
+
 ---
 Here's a preview of the dashboard in case you don't need to interact with it:
 
