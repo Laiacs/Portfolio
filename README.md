@@ -1,12 +1,5 @@
-Hello! Welcome to my porfolio. 👋
+# Hello! Welcome to my portfolio. 👋  
 
-I'm glad you've come across my page. Within this repository, I share some of the projects I've undertaken, focusing on data analytics.
+I'm glad you've come across my page! Here, you can explore some of the latest projects I've been working on during my journey as a data analyst. Each project is organized into separate folders, covering different aspects of data analytics using Python.  
 
-You will find different folders for distinct projects, each unrelated to the others. These projects involve either Python and SQL.
-
-Overview of completed projects:
-
-    Airb&b Madrid -> In this project, I’m exploring data related to apartments prices in Madrid.
-    Lift & Lead -> This project aims to create a Data...
-    Chargeback Dashboard -> Chargeback_Dashboard_with_LookerStudio
-    Life Expectancy -> tfm
+Hope you find them interesting! Feel free to reach out on **[LinkedIn](https://www.linkedin.com/in/laia-campoy/)** if you have any questions. 😊  
