@@ -93,7 +93,7 @@ To present the **KPIs effectively**, we selected various visualization types:
 ✔ **Geographical Heatmaps & Demographics** – Chargebacks by country and age range.  
 
 #### **4️⃣ (Optional) Connect to the Customer Table**  
-As an additional step, we considered **connecting the `client_data` table** if needed for deeper customer segmentation in KPIs and visualizations.  
+As an additional step, we considered **connecting the `client_data` table** for deeper customer segmentation in KPIs and visualizations.  
 
 ---
 
