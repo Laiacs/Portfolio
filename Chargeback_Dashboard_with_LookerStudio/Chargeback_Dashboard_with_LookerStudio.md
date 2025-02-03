@@ -1,71 +1,114 @@
-# **Amazon Chargeback Dashboard** 📊  
+# **Chargeback Dashboard** 📊  
 
 🔗 **Live Dashboard:** [Google Looker Studio](https://lookerstudio.google.com/s/ske7dRqPsI4)  
 
-## **Project Overview**  
-This dashboard was developed for **Amazon’s Chargebacks Department** to help **reduce chargebacks for authenticated transactions by 5%**. The dataset used for this project was randomly generated using Python.  
+---
+
+## **1. Context: What is a Chargeback?**  
+
+A **chargeback** is a process where a customer disputes a transaction, requesting a review and possible reversal of the charge on their credit card, bank account, or store account.  
+
+This typically happens when the customer:  
+- Does not recognize a transaction  
+- Suspects fraud  
+- Did not receive the promised product or service  
+- Is dissatisfied with the purchase for some reason  
+
+### **How Chargebacks Work**  
+Customers can dispute a transaction in **two ways**:  
+1. **Through their bank**, which initiates the chargeback process.  
+2. **Directly with the merchant**, where the transaction took place (e.g., Amazon).  
+
+Regardless of how the chargeback is initiated, **both the merchant and the bank** conduct an investigation to determine if the transaction was fraudulent.  
+- If fraud is confirmed ➝ The amount is refunded to the customer.  
+- If no fraud is found ➝ The customer remains responsible for the transaction.  
 
 ---
 
-## **The Challenge**  
+## **2. Chargeback Dataset Components**  
+
+The **chargeback dataset** contains various fields to analyze the process effectively.  
+
+| **Field**                 | **Description** |
+|---------------------------|-------------------------------------------------|
+| **Chargeback ID**         | Unique identifier for each chargeback dispute. |
+| **Transaction ID**        | Links the chargeback to the original transaction. |
+| **Client ID**             | Identifies the customer involved in the chargeback. |
+| **Chargeback Date**       | Date and time when the chargeback was recorded. |
+| **Transaction Amount (€)** | Total value of the original transaction. |
+| **Chargeback Amount (€)** | Amount disputed by the customer. |
+| **Authentication**        | Indicates if the transaction was authenticated (e.g., CVV, biometric authentication). |
+| **Payment Type**          | Payment method used (credit card, bank transfer, PayPal, etc.). |
+| **Number of Products**    | Number of products/services in the transaction. |
+| **Chargeback Reason**     | Reason for the chargeback (Unrecognized Transaction, Product Not Received, Account Takeover). |
+| **Chargeback Status**     | Current status of the chargeback (Pending, Declined, Approved). |
+| **Chargeback Scope**      | Indicates if the chargeback covers the full transaction or only part of it. |
+| **Is Discounted Purchase** | Whether the original purchase had a discount. |
+
+---
+
+## **3. Chargeback Team's Objective**  
+
+The main goal of Amazon’s **Chargeback Department** is to:  
+
+✅ **Reduce chargebacks for authenticated transactions by 5%**  
+
+To achieve this, a **Looker Studio dashboard** was created to monitor chargeback trends and improve decision-making.  
+
+---
+
+## **4. The Challenge: Creating a Chargeback Dashboard**  
 
 ### **Objective**  
-Create a **Looker Studio dashboard** for a chargeback team based on the provided dataset.  
+Develop a **Looker Studio dashboard** for the chargeback team using the provided dataset.  
 
-### **How It Was Done**  
+### **Steps Taken to Build the Dashboard**  
 
-#### **1. Define 3 KPIs (Key Performance Indicators)**  
-- Select at least **three relevant KPIs** to monitor chargeback performance.  
-- Add them to the Looker Studio dashboard with total value visualizations.  
+#### **1️⃣ Define 3 Key Performance Indicators (KPIs)**  
+To effectively monitor chargeback performance, we selected three key **KPIs**:  
+- **Total Chargebacks** 📈 – Total number of chargebacks received, providing an overview of the situation.  
+- **% Approved Chargebacks** ✅ – Percentage of chargebacks that were successfully approved.  
+- **Total Chargeback Amount (€)** 💰 – Total financial value of chargebacks.  
 
-#### **2. Select Segmentations (Add 3 Control Filters)**  
-- Identify the necessary filters that allow dashboard users to **analyze chargeback data effectively**.  
+Each KPI is displayed with total value visualizations in **Looker Studio**.  
 
-#### **3. Create Visualizations**  
-- Choose at least **three different types of visualizations** to present the KPIs and enable effective data analysis.  
-- Example visualization types: **bar charts, line charts, pivot tables, pie charts.**  
+#### **2️⃣ Implement Segmentation (Filters)**  
+To allow users to **analyze chargeback data more effectively**, we added three key **filters**:  
+- **Country** 🌍 – To analyze chargeback distribution by region.  
+- **Payment Type** 💳 – To assess chargeback frequency across different payment methods.  
+- **Client Type** 👤 – To distinguish chargebacks between different customer categories.  
 
-#### **4. Connect to the Customer Table (Optional)**  
-- Optionally, **connect the dashboard to the `client_data` table** if required for KPIs or visualizations.  
-
----
-
-## **Key Performance Indicators (KPIs)**  
-The dashboard focuses on the following **KPIs** to analyze and optimize chargeback management:  
-
-- **Total Chargebacks** 📈 – Represents the total number of chargebacks received, providing a general overview of the issue.  
-- **Ratio of Authenticated Transactions** ✅ – Shows the percentage of transactions that were authenticated, directly tied to the department's reduction goal.  
-- **Total Chargeback Amount (€)** 💰 – Displays the cumulative financial impact of chargebacks on authenticated transactions.  
-- **Average Chargeback Amount (€)** 💳 – Highlights the typical monetary value of individual chargebacks.  
-- **% Chargebacks Due to Missing Products** 📦 – Tracks the percentage of chargebacks caused by missing products, a key area Amazon can control to reduce losses.  
-
----
-
-## **Data Visualizations**  
-The dashboard includes various **visualizations** to enhance data interpretation:  
-
-✔ **3 Pie Charts** – Chargeback status, reasons, and chargebacks with discounts.  
-✔ **1 Stacked Bar Chart** – Chargeback reasons per client type.  
-✔ **2 Time Series Charts** – Monthly trends of total chargebacks and average transaction values.  
+#### **3️⃣ Create Data Visualizations**  
+To present the **KPIs effectively**, we selected various visualization types:  
+✔ **Pie Charts** – Chargeback status, reasons, and chargebacks with discounts.  
+✔ **Stacked Bar Charts** – Chargeback reasons per client type.  
+✔ **Time Series Charts** – Monthly trends of total chargebacks and average transaction values.  
 ✔ **Geographical Heatmaps & Demographics** – Chargebacks by country and age range.  
 
----
-
-## **Data Segmentation & Filters**  
-Users can **filter** the data using:  
-
-🎯 **Country**  
-🎯 **Payment Type**  
-🎯 **Customer Type**  
-🎯 **Chargeback Status**  
-
-Since the dataset covers only one year, a date segmentation has not been included. However, **this could be a valuable future enhancement** if historical data is available.  
+#### **4️⃣ (Optional) Connect to the Customer Table**  
+As an additional step, we considered **connecting the `client_data` table** if needed for deeper customer segmentation in KPIs and visualizations.  
 
 ---
 
-## **Interact with the Dashboard**  
-🔍 Explore the data and discover insights by interacting with the **[Google Looker Studio Dashboard](https://lookerstudio.google.com/s/ske7dRqPsI4)**.  
+## **5. Deliverables: How to Access the Dashboard**  
 
+To ensure accessibility, we followed these steps:  
+1. **Generated a shareable link:** The Looker Studio dashboard was configured to allow public access.  
+2. **Verified accessibility:** Tested the link in an incognito browser to confirm unrestricted access.  
+3. **Embedded the dashboard link in this document:**  
+
+🔍 **View and interact with the dashboard here:** [Google Looker Studio Dashboard](https://lookerstudio.google.com/s/ske7dRqPsI4)  
+
+---
+
+## **Conclusion**  
+This dashboard serves as a **valuable tool for Amazon’s chargeback team** to track and analyze disputes efficiently. By leveraging **KPIs, segmentation filters, and visualizations**, the team can:  
+- Gain insights into **chargeback trends**.  
+- Identify **high-risk payment methods and regions**.  
+- Improve strategies to **reduce authenticated chargebacks by 5%**.  
+
+This structured approach **enhances chargeback management** and supports data-driven decision-making. 🚀  
+---
 Here's a preview of the dashboard in case you don't need to interact with it:
 
 ![Dashboard](Captura_Dashboard.jpg)
