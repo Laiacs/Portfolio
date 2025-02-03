@@ -1,26 +1,72 @@
-## **Data Visualization project**
+# **Amazon Chargeback Dashboard** 📊  
 
-Google Looker Studio Dashboard: https://lookerstudio.google.com/s/ske7dRqPsI4
+🔗 **Live Dashboard:** [Google Looker Studio](https://lookerstudio.google.com/s/ske7dRqPsI4)  
 
-We have created a dashboard for Amazon’s Chargebacks department, aimed at reducing their chargebacks for authenticated transactions by 5%. The data used for this project has been randomly generated with Python.
+## **Project Overview**  
+This dashboard was developed for **Amazon’s Chargebacks Department** to help **reduce chargebacks for authenticated transactions by 5%**. The dataset used for this project was randomly generated using Python.  
 
-## **KPIs:**
+---
 
-1.	**Total Chargebacks:** The total sum of received chargebacks. This helps us get an overall view of the situation.
-2.	**Ratio of Authenticated Transactions:** The percentage of transactions that have been authenticated out of the total. This percentage is directly related to the department’s goal.
-3. **Total Chargeback Amount:** Indicates the total value sum of chargebacks for authenticated transactions. This provides insight into the overall value of the chargebacks.
-4.	**Average Chargeback Amount:** The average value of chargebacks for authenticated transactions. Similar to the previous KPI, but from the perspective of individual transactions.
-5.	**% Caused by Missing Products:** The percentage of total chargebacks generated for this reason. We consider this KPI very relevant, as Amazon can exert greater control over chargebacks caused by missing products.
+## **The Challenge**  
 
-## **Visualizations:**
+### **Objective**  
+Create a **Looker Studio dashboard** for a chargeback team based on the provided dataset.  
 
-Three pie charts, one stacked bar chart, and two time series charts have been created. One of them is a combined chart that contains information about the total chargebacks and the average monthly value of transactions and chargebacks for each month.
+### **How It Was Done**  
 
-## **Segmentation:**
+#### **1. Define 3 KPIs (Key Performance Indicators)**  
+- Select at least **three relevant KPIs** to monitor chargeback performance.  
+- Add them to the Looker Studio dashboard with total value visualizations.  
 
-The chosen filters allow data visualization by country, payment type, customer type, and chargeback status. As we only have data for one year, we have not included a date segmentation. However, it would be interesting to add this filter with more years.
+#### **2. Select Segmentations (Add 3 Control Filters)**  
+- Identify the necessary filters that allow dashboard users to **analyze chargeback data effectively**.  
 
-Here's a preview of the dashboard. If you want to interact with it, remember you've access through the link at the top
+#### **3. Create Visualizations**  
+- Choose at least **three different types of visualizations** to present the KPIs and enable effective data analysis.  
+- Example visualization types: **bar charts, line charts, pivot tables, pie charts.**  
+
+#### **4. Connect to the Customer Table (Optional)**  
+- Optionally, **connect the dashboard to the `client_data` table** if required for KPIs or visualizations.  
+
+---
+
+## **Key Performance Indicators (KPIs)**  
+The dashboard focuses on the following **KPIs** to analyze and optimize chargeback management:  
+
+- **Total Chargebacks** 📈 – Represents the total number of chargebacks received, providing a general overview of the issue.  
+- **Ratio of Authenticated Transactions** ✅ – Shows the percentage of transactions that were authenticated, directly tied to the department's reduction goal.  
+- **Total Chargeback Amount (€)** 💰 – Displays the cumulative financial impact of chargebacks on authenticated transactions.  
+- **Average Chargeback Amount (€)** 💳 – Highlights the typical monetary value of individual chargebacks.  
+- **% Chargebacks Due to Missing Products** 📦 – Tracks the percentage of chargebacks caused by missing products, a key area Amazon can control to reduce losses.  
+
+---
+
+## **Data Visualizations**  
+The dashboard includes various **visualizations** to enhance data interpretation:  
+
+✔ **3 Pie Charts** – Chargeback status, reasons, and chargebacks with discounts.  
+✔ **1 Stacked Bar Chart** – Chargeback reasons per client type.  
+✔ **2 Time Series Charts** – Monthly trends of total chargebacks and average transaction values.  
+✔ **Geographical Heatmaps & Demographics** – Chargebacks by country and age range.  
+
+---
+
+## **Data Segmentation & Filters**  
+Users can **filter** the data using:  
+
+🎯 **Country**  
+🎯 **Payment Type**  
+🎯 **Customer Type**  
+🎯 **Chargeback Status**  
+
+Since the dataset covers only one year, a date segmentation has not been included. However, **this could be a valuable future enhancement** if historical data is available.  
+
+---
+
+## **Interact with the Dashboard**  
+🔍 Explore the data and discover insights by interacting with the **[Google Looker Studio Dashboard](https://lookerstudio.google.com/s/ske7dRqPsI4)**.  
+
+Here's a preview of the dashboard in case you don't need to interact with it:
 
 ![Dashboard](Captura_Dashboard.jpg)
 
