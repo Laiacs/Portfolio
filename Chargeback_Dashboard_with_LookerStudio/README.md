@@ -1,4 +1,4 @@
-# **Chargeback Dashboard** 📊  
+# **Amazon's Chargeback Dashboard** 📊  
 
 🔗 **Live Dashboard:** [Google Looker Studio](https://lookerstudio.google.com/s/ske7dRqPsI4)  
 
