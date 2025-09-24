@@ -1,3 +1,9 @@
+Here's a preview of the dashboard in case you don't need to interact with it:
+
+![Dashboard](Captura_Dashboard.jpg)
+
+---
+
 # **Amazon's Chargeback Dashboard** 📊  
 
 🔗 **Live Dashboard:** [Google Looker Studio](https://lookerstudio.google.com/s/ske7dRqPsI4)  
@@ -116,7 +122,3 @@ This dashboard serves as a **valuable tool for Amazon’s chargeback team** to t
 
 This structured approach **enhances chargeback management** and supports data-driven decision-making. 🚀  
 
----
-Here's a preview of the dashboard in case you don't need to interact with it:
-
-![Dashboard](Captura_Dashboard.jpg)
