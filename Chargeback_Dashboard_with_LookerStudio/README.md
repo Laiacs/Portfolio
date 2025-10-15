@@ -1,3 +1,9 @@
+Here's a preview of the dashboard in case you don't need to interact with it:
+
+![Dashboard](Captura_Dashboard.jpg)
+
+---
+
 # **Amazon's Chargeback Dashboard** 📊  
 
 🔗 **Live Dashboard:** [Google Looker Studio](https://lookerstudio.google.com/s/ske7dRqPsI4)  
@@ -93,7 +99,7 @@ To present the **KPIs effectively**, we selected various visualization types:
 ✔ **Geographical Heatmaps & Demographics** – Chargebacks by country and age range.  
 
 #### **4️⃣ (Optional) Connect to the Customer Table**  
-As an additional step, we considered **connecting the `client_data` table** if needed for deeper customer segmentation in KPIs and visualizations.  
+As an additional step, we considered **connecting the `client_data` table** for deeper customer segmentation in KPIs and visualizations.  
 
 ---
 
@@ -116,7 +122,3 @@ This dashboard serves as a **valuable tool for Amazon’s chargeback team** to t
 
 This structured approach **enhances chargeback management** and supports data-driven decision-making. 🚀  
 
----
-Here's a preview of the dashboard in case you don't need to interact with it:
-
-![Dashboard](Captura_Dashboard.jpg)
