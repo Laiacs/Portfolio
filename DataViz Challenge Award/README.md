@@ -1,5 +1,5 @@
-# 30 Days Women DataViz Challenge Award – Women in DataViz 2025 Awards
-
+# 🏆 30 Days Women DataViz Challenge Award – Women in DataViz 2025 Awards
+https://observablehq.com/d/c552448cb046fe91
 ## 1. Introduction
 
 ### Objective  
@@ -20,11 +20,12 @@ The data used come from international open datasets on CO₂ emissions, both his
 
 ### Tools Used  
 - **Languages and Libraries**
-  - `D3.js`: Interactive data visualization.  
-  - `Observable`: Rapid prototyping and visual iteration.  
-  - `Python (pandas, matplotlib)`: Data preprocessing and analysis.  
-  - `Figma`: Visual design and storytelling planning.
-
+- `D3.js`: Interactive data visualization.  
+- `Observable`: Rapid prototyping and visual iteration.  
+- `Plot`: Declarative statistical charts library developed by Observable.  
+- `HTML5`: Markup language for structuring web content.  
+- `CSS3`: Styling and layout for web pages.  
+- `JavaScript`: Core programming language for web interactions.  
 ---
 
 ## 3. Development and Results
