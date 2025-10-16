@@ -2,10 +2,6 @@
 Click here to see and interact with it on Observable:
 https://observablehq.com/d/c552448cb046fe91
 
-Here's a preview of the dashboard in case you don't need to interact with it:
-
-![Challenge](30_Days_Dataviz_Challenge.jpg)
-
 ## 1. Introduction
 
 ### Objective  
@@ -58,9 +54,6 @@ The data used come from international open datasets on CO₂ emissions, both his
 
 ---
 
-## 5. Documentation and Resources
+Here's a preview of the project on Observable in case you don't need to interact with it:
 
-### Available Resources  
-- **Interactive Visualization:** Available in the repository; it allows exploration by country and time period.  
-- **Detailed Explanation:** Includes project process, data sources, and design decisions in the README file.  
-- **Contact:** For collaborations or questions, feel free to reach out via GitHub or LinkedIn.
+![Challenge](30_Days_Dataviz_Challenge.jpg)
