@@ -1,6 +1,11 @@
 # 🏆 30 Days Women DataViz Challenge Award – Women in DataViz 2025 Awards
 Click here to see and interact with it on Observable:
 https://observablehq.com/d/c552448cb046fe91
+
+Here's a preview of the dashboard in case you don't need to interact with it:
+
+![Challenge](30 Days Dataviz Challenge.jpg)
+
 ## 1. Introduction
 
 ### Objective  
