@@ -4,7 +4,7 @@ https://observablehq.com/d/c552448cb046fe91
 
 Here's a preview of the dashboard in case you don't need to interact with it:
 
-![Challenge](30 Days Dataviz Challenge.jpg)
+![Challenge](30_Days_Dataviz_Challenge.jpg)
 
 ## 1. Introduction
 
